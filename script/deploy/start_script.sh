@@ -80,6 +80,12 @@ do
     esac
 done
 
+if [ -f exporter.pid ]; then
+    echo "The SNMP exporter has already started."
+    exit 0
+fi
+
 chmod +x ./src/snmp_exporter
 
-nohup ./src/snmp_exporter --config.file="$snmp_yaml_path" --web.listen-address="$exporter_host:$exporter_port" > /dev/null 2>&1 & echo $! > exporter.pid
+./src/snmp_exporter --config.file="$snmp_yaml_path" --web.listen-address="$exporter_host:$exporter_port" &
+echo $! > exporter.pid
