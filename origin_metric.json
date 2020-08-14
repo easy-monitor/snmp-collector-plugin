@@ -1,0 +1,2908 @@
+[
+    {
+        "agentType": "prometheus",
+        "help": "An alternate routing metric for this route - 1.3.6.1.2.1.4.21.1.5",
+        "key": "ipRouteMetric3",
+        "name": "prometheus-ipRouteMetric3",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipRouteDest",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The number of routing entries which were chosen to be discarded even though they are valid - 1.3.6.1.2.1.4.23",
+        "key": "ipRoutingDiscards",
+        "name": "prometheus-ipRoutingDiscards",
+        "paramDefine": [],
+        "tagDefine": [],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The value of sysUpTime at the time the interface entered its current operational state - 1.3.6.1.2.1.2.2.1.9",
+        "key": "ifLastChange",
+        "name": "prometheus-ifLastChange",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The vendor-specific model name identifier string associated with this physical component - 1.3.6.1.2.1.47.1.1.1.1.13",
+        "key": "entPhysicalModelName",
+        "name": "prometheus-entPhysicalModelName",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "entPhysicalIndex",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "H3C Switch S5120-28P-LI",
+                "name": "entPhysicalModelName",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "entPhysicalIndex",
+                "readOnly": false
+            },
+            {
+                "default": "H3C Switch S5120-28P-LI",
+                "name": "entPhysicalModelName",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "An alternate routing metric for this route - 1.3.6.1.2.1.4.24.4.1.14",
+        "key": "ipCidrRouteMetric4",
+        "name": "prometheus-ipCidrRouteMetric4",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The destination IP address of this route - 1.3.6.1.2.1.4.21.1.1",
+        "key": "ipRouteDest",
+        "name": "prometheus-ipRouteDest",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipRouteDest",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The value of sysUpTime at the time a conceptual row is created, modified, or deleted in any of these tables: - entPhysicalTable - entLogicalTable - entLPMappingTable - entAliasMappingTable - entPhysicalContainsTable - 1.3.6.1.2.1.47.1.4.1",
+        "key": "entLastChangeTime",
+        "name": "prometheus-entLastChangeTime",
+        "paramDefine": [],
+        "tagDefine": [],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The indication of whether this entity is acting as an IPv4 router in respect to the forwarding of datagrams received by, but not addressed to, this entity - 1.3.6.1.2.1.4.1",
+        "key": "ipForwarding",
+        "name": "prometheus-ipForwarding",
+        "paramDefine": [],
+        "tagDefine": [],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The maximum number of seconds that received fragments are held while they are awaiting reassembly at this entity. - 1.3.6.1.2.1.4.13",
+        "key": "ipReasmTimeout",
+        "name": "prometheus-ipReasmTimeout",
+        "paramDefine": [],
+        "tagDefine": [],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The number of packets, delivered by this sub-layer to a higher (sub-)layer, which were addressed to a multicast or broadcast address at this sub-layer - 1.3.6.1.2.1.2.2.1.12",
+        "key": "ifInNUcastPkts",
+        "name": "prometheus-ifInNUcastPkts",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The size of the largest IPv4 datagram which this entity can re-assemble from incoming IPv4 fragmented datagrams received on this interface. - 1.3.6.1.2.1.4.20.1.5",
+        "key": "ipAdEntReasmMaxSize",
+        "name": "prometheus-ipAdEntReasmMaxSize",
+        "paramDefine": [
+            {
+                "default": "192.168.10.253",
+                "name": "ipAdEntAddr",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.253",
+                "name": "ipAdEntAddr",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "A textual string containing information about the interface - 1.3.6.1.2.1.2.2.1.2",
+        "key": "ifDescr",
+        "name": "prometheus-ifDescr",
+        "paramDefine": [
+            {
+                "default": "GigabitEthernet1/0/1",
+                "name": "ifDescr",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "GigabitEthernet1/0/1",
+                "name": "ifDescr",
+                "readOnly": false
+            },
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The Autonomous System Number of the Next Hop - 1.3.6.1.2.1.4.24.4.1.10",
+        "key": "ipCidrRouteNextHopAS",
+        "name": "prometheus-ipCidrRouteNextHopAS",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The policy specifier is the IP TOS Field - 1.3.6.1.2.1.4.24.4.1.3",
+        "key": "ipCidrRouteTos",
+        "name": "prometheus-ipCidrRouteTos",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The ifIndex value that identifies the local interface through which the next hop of this route should be reached. - 1.3.6.1.2.1.4.24.4.1.5",
+        "key": "ipCidrRouteIfIndex",
+        "name": "prometheus-ipCidrRouteIfIndex",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The number of locally-addressed datagrams received successfully but discarded because of an unknown or unsupported protocol - 1.3.6.1.2.1.4.7",
+        "key": "ipInUnknownProtos",
+        "name": "prometheus-ipInUnknownProtos",
+        "paramDefine": [],
+        "tagDefine": [],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The index value which uniquely identifies the interface to which this entry is applicable - 1.3.6.1.2.1.4.20.1.2",
+        "key": "ipAdEntIfIndex",
+        "name": "prometheus-ipAdEntIfIndex",
+        "paramDefine": [
+            {
+                "default": "192.168.10.253",
+                "name": "ipAdEntAddr",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.253",
+                "name": "ipAdEntAddr",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "Time SNMP walk/bulkwalk took.",
+        "key": "snmp_scrape_walk_duration_seconds",
+        "name": "prometheus-snmp_scrape_walk_duration_seconds",
+        "unit": "seconds",
+        "paramDefine": [],
+        "tagDefine": []
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The total number of octets received on the interface, including framing characters - 1.3.6.1.2.1.2.2.1.10",
+        "key": "ifInOctets",
+        "name": "prometheus-ifInOctets",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "An alternate routing metric for this route - 1.3.6.1.2.1.4.24.4.1.13",
+        "key": "ipCidrRouteMetric3",
+        "name": "prometheus-ipCidrRouteMetric3",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The destination IP address of this route - 1.3.6.1.2.1.4.24.4.1.1",
+        "key": "ipCidrRouteDest",
+        "name": "prometheus-ipCidrRouteDest",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "A textual description of the entity - 1.3.6.1.2.1.1.1",
+        "key": "sysDescr",
+        "name": "prometheus-sysDescr",
+        "paramDefine": [
+            {
+                "default": "H3C Switch S5120-28P-LI Software Version 5.20",
+                "name": "sysDescr",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "H3C Switch S5120-28P-LI Software Version 5.20",
+                "name": "sysDescr",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The number of IPv4 datagrams that have been successfully fragmented at this entity - 1.3.6.1.2.1.4.17",
+        "key": "ipFragOKs",
+        "name": "prometheus-ipFragOKs",
+        "paramDefine": [],
+        "tagDefine": [],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The primary routing metric for this route - 1.3.6.1.2.1.4.21.1.3",
+        "key": "ipRouteMetric1",
+        "name": "prometheus-ipRouteMetric1",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipRouteDest",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "This object indicates whether or not this physical entity is considered a 'field replaceable unit' by the vendor - 1.3.6.1.2.1.47.1.1.1.1.16",
+        "key": "entPhysicalIsFRU",
+        "name": "prometheus-entPhysicalIsFRU",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "entPhysicalIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "entPhysicalIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "PDUs returned from walk.",
+        "key": "snmp_scrape_pdus_returned",
+        "name": "prometheus-snmp_scrape_pdus_returned",
+        "paramDefine": [],
+        "tagDefine": [],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The vendor-specific serial number string for the physical entity - 1.3.6.1.2.1.47.1.1.1.1.11",
+        "key": "entPhysicalSerialNum",
+        "name": "prometheus-entPhysicalSerialNum",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "entPhysicalIndex",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "210235A0HVB10A000547",
+                "name": "entPhysicalSerialNum",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "entPhysicalIndex",
+                "readOnly": false
+            },
+            {
+                "default": "210235A0HVB10A000547",
+                "name": "entPhysicalSerialNum",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The total number of packets that higher-level protocols requested be transmitted, and which were not addressed to a multicast or broadcast address at this sub-layer, including those that were discarded or not sent - 1.3.6.1.2.1.2.2.1.17",
+        "key": "ifOutUcastPkts",
+        "name": "prometheus-ifOutUcastPkts",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The time (in hundredths of a second) since the network management portion of the system was last re-initialized. - 1.3.6.1.2.1.1.3",
+        "key": "sysUpTime",
+        "name": "prometheus-sysUpTime",
+        "paramDefine": [],
+        "tagDefine": [],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "A textual description of physical entity - 1.3.6.1.2.1.47.1.1.1.1.2",
+        "key": "entPhysicalDescr",
+        "name": "prometheus-entPhysicalDescr",
+        "paramDefine": [
+            {
+                "default": "CONTAINER LEVEL1",
+                "name": "entPhysicalDescr",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "2",
+                "name": "entPhysicalIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "CONTAINER LEVEL1",
+                "name": "entPhysicalDescr",
+                "readOnly": false
+            },
+            {
+                "default": "2",
+                "name": "entPhysicalIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The physical location of this node (e.g., 'telephone closet, 3rd floor') - 1.3.6.1.2.1.1.6",
+        "key": "sysLocation",
+        "name": "prometheus-sysLocation",
+        "paramDefine": [
+            {
+                "default": "Hangzhou",
+                "name": "sysLocation",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "Hangzhou",
+                "name": "sysLocation",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "An alternate routing metric for this route - 1.3.6.1.2.1.4.24.4.1.12",
+        "key": "ipCidrRouteMetric2",
+        "name": "prometheus-ipCidrRouteMetric2",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The routing mechanism via which this route was learned - 1.3.6.1.2.1.4.21.1.9",
+        "key": "ipRouteProto",
+        "name": "prometheus-ipRouteProto",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipRouteDest",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "An alternate routing metric for this route - 1.3.6.1.2.1.4.21.1.6",
+        "key": "ipRouteMetric4",
+        "name": "prometheus-ipRouteMetric4",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipRouteDest",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "This object contains additional identification information about the physical entity - 1.3.6.1.2.1.47.1.1.1.1.18",
+        "key": "entPhysicalUris",
+        "name": "prometheus-entPhysicalUris",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "entPhysicalIndex",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "0x4E4F4E45",
+                "name": "entPhysicalUris",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "entPhysicalIndex",
+                "readOnly": false
+            },
+            {
+                "default": "0x4E4F4E45",
+                "name": "entPhysicalUris",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The subnet mask associated with the IPv4 address of this entry - 1.3.6.1.2.1.4.20.1.3",
+        "key": "ipAdEntNetMask",
+        "name": "prometheus-ipAdEntNetMask",
+        "paramDefine": [
+            {
+                "default": "192.168.10.253",
+                "name": "ipAdEntAddr",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipAdEntNetMask",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.253",
+                "name": "ipAdEntAddr",
+                "readOnly": false
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipAdEntNetMask",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The IPv4 address to which this entry's addressing information pertains. - 1.3.6.1.2.1.4.20.1.1",
+        "key": "ipAdEntAddr",
+        "name": "prometheus-ipAdEntAddr",
+        "paramDefine": [
+            {
+                "default": "192.168.10.253",
+                "name": "ipAdEntAddr",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.253",
+                "name": "ipAdEntAddr",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The IP address of the next hop of this route - 1.3.6.1.2.1.4.21.1.7",
+        "key": "ipRouteNextHop",
+        "name": "prometheus-ipRouteNextHop",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipRouteNextHop",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipRouteDest",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipRouteNextHop",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "An indication of the general hardware type of the physical entity - 1.3.6.1.2.1.47.1.1.1.1.5",
+        "key": "entPhysicalClass",
+        "name": "prometheus-entPhysicalClass",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "entPhysicalIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "entPhysicalIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "An alternate routing metric for this route - 1.3.6.1.2.1.4.24.4.1.15",
+        "key": "ipCidrRouteMetric5",
+        "name": "prometheus-ipCidrRouteMetric5",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The vendor's authoritative identification of the network management subsystem contained in the entity - 1.3.6.1.2.1.1.2",
+        "key": "sysObjectID",
+        "name": "prometheus-sysObjectID",
+        "paramDefine": [
+            {
+                "default": "1.3.6.1.4.1.25506.1.619",
+                "name": "sysObjectID",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1.3.6.1.4.1.25506.1.619",
+                "name": "sysObjectID",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The number of input datagrams discarded due to errors in their IPv4 headers, including bad checksums, version number mismatch, other format errors, time-to-live exceeded, errors discovered in processing their IPv4 options, etc - 1.3.6.1.2.1.4.4",
+        "key": "ipInHdrErrors",
+        "name": "prometheus-ipInHdrErrors",
+        "paramDefine": [],
+        "tagDefine": [],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The number of failures detected by the IPv4 re-assembly algorithm (for whatever reason: timed out, errors, etc) - 1.3.6.1.2.1.4.16",
+        "key": "ipReasmFails",
+        "name": "prometheus-ipReasmFails",
+        "paramDefine": [],
+        "tagDefine": [],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The interface on which this entry's equivalence is effective - 1.3.6.1.2.1.4.22.1.1",
+        "key": "ipNetToMediaIfIndex",
+        "name": "prometheus-ipNetToMediaIfIndex",
+        "paramDefine": [
+            {
+                "default": "30",
+                "name": "ipNetToMediaIfIndex",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.1",
+                "name": "ipNetToMediaNetAddress",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "30",
+                "name": "ipNetToMediaIfIndex",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.1",
+                "name": "ipNetToMediaNetAddress",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "Indicate the mask to be logical-ANDed with the destination address before being compared to the value in the ipRouteDest field - 1.3.6.1.2.1.4.21.1.11",
+        "key": "ipRouteMask",
+        "name": "prometheus-ipRouteMask",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipRouteMask",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipRouteDest",
+                "readOnly": false
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipRouteMask",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The index value which uniquely identifies the local interface through which the next hop of this route should be reached - 1.3.6.1.2.1.4.21.1.2",
+        "key": "ipRouteIfIndex",
+        "name": "prometheus-ipRouteIfIndex",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipRouteDest",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The row status variable, used according to row installation and removal conventions. - 1.3.6.1.2.1.4.24.4.1.16",
+        "key": "ipCidrRouteStatus",
+        "name": "prometheus-ipCidrRouteStatus",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The primary routing metric for this route - 1.3.6.1.2.1.4.24.4.1.11",
+        "key": "ipCidrRouteMetric1",
+        "name": "prometheus-ipCidrRouteMetric1",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "Indicate the mask to be logical-ANDed with the destination address before being compared to the value in the ipCidrRouteDest field - 1.3.6.1.2.1.4.24.4.1.2",
+        "key": "ipCidrRouteMask",
+        "name": "prometheus-ipCidrRouteMask",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The name of the manufacturer of this physical component - 1.3.6.1.2.1.47.1.1.1.1.12",
+        "key": "entPhysicalMfgName",
+        "name": "prometheus-entPhysicalMfgName",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "entPhysicalIndex",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "H3C",
+                "name": "entPhysicalMfgName",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "entPhysicalIndex",
+                "readOnly": false
+            },
+            {
+                "default": "H3C",
+                "name": "entPhysicalMfgName",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "An indication of the vendor-specific hardware type of the physical entity - 1.3.6.1.2.1.47.1.1.1.1.3",
+        "key": "entPhysicalVendorType",
+        "name": "prometheus-entPhysicalVendorType",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "entPhysicalIndex",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "1.3.6.1.4.1.25506.1.619",
+                "name": "entPhysicalVendorType",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "entPhysicalIndex",
+                "readOnly": false
+            },
+            {
+                "default": "1.3.6.1.4.1.25506.1.619",
+                "name": "entPhysicalVendorType",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "A reference to MIB definitions specific to the particular routing protocol that is responsible for this route, as determined by the value specified in the route's ipCidrRouteProto value - 1.3.6.1.2.1.4.24.4.1.9",
+        "key": "ipCidrRouteInfo",
+        "name": "prometheus-ipCidrRouteInfo",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "0.0",
+                "name": "ipCidrRouteInfo",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false
+            },
+            {
+                "default": "0.0",
+                "name": "ipCidrRouteInfo",
+                "readOnly": false
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The media-dependent `physical' address - 1.3.6.1.2.1.4.22.1.2",
+        "key": "ipNetToMediaPhysAddress",
+        "name": "prometheus-ipNetToMediaPhysAddress",
+        "paramDefine": [
+            {
+                "default": "30",
+                "name": "ipNetToMediaIfIndex",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.1",
+                "name": "ipNetToMediaNetAddress",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "A0:63:91:44:F7:94",
+                "name": "ipNetToMediaPhysAddress",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "30",
+                "name": "ipNetToMediaIfIndex",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.1",
+                "name": "ipNetToMediaNetAddress",
+                "readOnly": false
+            },
+            {
+                "default": "A0:63:91:44:F7:94",
+                "name": "ipNetToMediaPhysAddress",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The number of output IPv4 datagrams for which no problem was encountered to prevent their transmission to their destination, but which were discarded (e.g., for lack of buffer space) - 1.3.6.1.2.1.4.11",
+        "key": "ipOutDiscards",
+        "name": "prometheus-ipOutDiscards",
+        "paramDefine": [],
+        "tagDefine": [],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The value of this object identifies a particular conceptual row associated with the indicated entPhysicalIndex and entLogicalIndex pair - 1.3.6.1.2.1.47.1.3.2.1.2",
+        "key": "entAliasMappingIdentifier",
+        "name": "prometheus-entAliasMappingIdentifier",
+        "paramDefine": [
+            {
+                "default": "0",
+                "name": "entAliasLogicalIndexOrZero",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "1.3.6.1.2.1.2.2.1.1.1",
+                "name": "entAliasMappingIdentifier",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "16",
+                "name": "entPhysicalIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "0",
+                "name": "entAliasLogicalIndexOrZero",
+                "readOnly": false
+            },
+            {
+                "default": "1.3.6.1.2.1.2.2.1.1.1",
+                "name": "entAliasMappingIdentifier",
+                "readOnly": false
+            },
+            {
+                "default": "16",
+                "name": "entPhysicalIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The type of route - 1.3.6.1.2.1.4.24.4.1.6",
+        "key": "ipCidrRouteType",
+        "name": "prometheus-ipCidrRouteType",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The number of seconds since this route was last updated or otherwise determined to be correct - 1.3.6.1.2.1.4.24.4.1.8",
+        "key": "ipCidrRouteAge",
+        "name": "prometheus-ipCidrRouteAge",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The IpAddress corresponding to the media-dependent `physical' address - 1.3.6.1.2.1.4.22.1.3",
+        "key": "ipNetToMediaNetAddress",
+        "name": "prometheus-ipNetToMediaNetAddress",
+        "paramDefine": [
+            {
+                "default": "30",
+                "name": "ipNetToMediaIfIndex",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.1",
+                "name": "ipNetToMediaNetAddress",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "30",
+                "name": "ipNetToMediaIfIndex",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.1",
+                "name": "ipNetToMediaNetAddress",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "A reference to MIB definitions specific to the particular media being used to realize the interface - 1.3.6.1.2.1.2.2.1.22",
+        "key": "ifSpecific",
+        "name": "prometheus-ifSpecific",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "0.0",
+                "name": "ifSpecific",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false
+            },
+            {
+                "default": "0.0",
+                "name": "ifSpecific",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The current operational state of the interface - 1.3.6.1.2.1.2.2.1.8",
+        "key": "ifOperStatus",
+        "name": "prometheus-ifOperStatus",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The total number of IPv4 datagrams which local IPv4 user protocols (including ICMP) supplied to IPv4 in requests for transmission - 1.3.6.1.2.1.4.10",
+        "key": "ipOutRequests",
+        "name": "prometheus-ipOutRequests",
+        "paramDefine": [],
+        "tagDefine": [],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The number of input IPv4 datagrams for which no problems were encountered to prevent their continued processing, but which were discarded (e.g., for lack of buffer space) - 1.3.6.1.2.1.4.8",
+        "key": "ipInDiscards",
+        "name": "prometheus-ipInDiscards",
+        "paramDefine": [],
+        "tagDefine": [],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "Total SNMP time scrape took (walk and processing).",
+        "key": "snmp_scrape_duration_seconds",
+        "name": "prometheus-snmp_scrape_duration_seconds",
+        "unit": "seconds",
+        "paramDefine": [],
+        "tagDefine": []
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The default value inserted into the Time-To-Live field of the IPv4 header of datagrams originated at this entity, whenever a TTL value is not supplied by the transport layer protocol - 1.3.6.1.2.1.4.2",
+        "key": "ipDefaultTTL",
+        "name": "prometheus-ipDefaultTTL",
+        "paramDefine": [],
+        "tagDefine": [],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The number of input datagrams discarded because the IPv4 address in their IPv4 header's destination field was not a valid address to be received at this entity - 1.3.6.1.2.1.4.5",
+        "key": "ipInAddrErrors",
+        "name": "prometheus-ipInAddrErrors",
+        "paramDefine": [],
+        "tagDefine": [],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The number of network interfaces (regardless of their current state) present on this system. - 1.3.6.1.2.1.2.1",
+        "key": "ifNumber",
+        "name": "prometheus-ifNumber",
+        "paramDefine": [],
+        "tagDefine": [],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The interface's address at its protocol sub-layer - 1.3.6.1.2.1.2.2.1.6",
+        "key": "ifPhysAddress",
+        "name": "prometheus-ifPhysAddress",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "3C:E5:A6:80:E0:5A",
+                "name": "ifPhysAddress",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false
+            },
+            {
+                "default": "3C:E5:A6:80:E0:5A",
+                "name": "ifPhysAddress",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The number of outbound packets which were chosen to be discarded even though no errors had been detected to prevent their being transmitted - 1.3.6.1.2.1.2.2.1.19",
+        "key": "ifOutDiscards",
+        "name": "prometheus-ifOutDiscards",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The routing mechanism via which this route was learned - 1.3.6.1.2.1.4.24.4.1.7",
+        "key": "ipCidrRouteProto",
+        "name": "prometheus-ipCidrRouteProto",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The vendor-specific software revision string for the physical entity - 1.3.6.1.2.1.47.1.1.1.1.10",
+        "key": "entPhysicalSoftwareRev",
+        "name": "prometheus-entPhysicalSoftwareRev",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "entPhysicalIndex",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "5.20 Release 1107",
+                "name": "entPhysicalSoftwareRev",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "entPhysicalIndex",
+                "readOnly": false
+            },
+            {
+                "default": "5.20 Release 1107",
+                "name": "entPhysicalSoftwareRev",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The desired state of the interface - 1.3.6.1.2.1.2.2.1.7",
+        "key": "ifAdminStatus",
+        "name": "prometheus-ifAdminStatus",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The textual name of the physical entity - 1.3.6.1.2.1.47.1.1.1.1.7",
+        "key": "entPhysicalName",
+        "name": "prometheus-entPhysicalName",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "entPhysicalIndex",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "H3C Switch S5120-28P-LI",
+                "name": "entPhysicalName",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "entPhysicalIndex",
+                "readOnly": false
+            },
+            {
+                "default": "H3C Switch S5120-28P-LI",
+                "name": "entPhysicalName",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "An estimate of the interface's current bandwidth in bits per second - 1.3.6.1.2.1.2.2.1.5",
+        "key": "ifSpeed",
+        "name": "prometheus-ifSpeed",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The number of IPv4 datagrams successfully re-assembled - 1.3.6.1.2.1.4.15",
+        "key": "ipReasmOKs",
+        "name": "prometheus-ipReasmOKs",
+        "paramDefine": [],
+        "tagDefine": [],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The number of seconds since this route was last updated or otherwise determined to be correct - 1.3.6.1.2.1.4.21.1.10",
+        "key": "ipRouteAge",
+        "name": "prometheus-ipRouteAge",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipRouteDest",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "For packet-oriented interfaces, the number of outbound packets that could not be transmitted because of errors - 1.3.6.1.2.1.2.2.1.20",
+        "key": "ifOutErrors",
+        "name": "prometheus-ifOutErrors",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The size of the largest packet which can be sent/received on the interface, specified in octets - 1.3.6.1.2.1.2.2.1.4",
+        "key": "ifMtu",
+        "name": "prometheus-ifMtu",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The total number of input datagrams successfully delivered to IPv4 user-protocols (including ICMP) - 1.3.6.1.2.1.4.9",
+        "key": "ipInDelivers",
+        "name": "prometheus-ipInDelivers",
+        "paramDefine": [],
+        "tagDefine": [],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "A reference to MIB definitions specific to the particular routing protocol which is responsible for this route, as determined by the value specified in the route's ipRouteProto value - 1.3.6.1.2.1.4.21.1.13",
+        "key": "ipRouteInfo",
+        "name": "prometheus-ipRouteInfo",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "0.0",
+                "name": "ipRouteInfo",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipRouteDest",
+                "readOnly": false
+            },
+            {
+                "default": "0.0",
+                "name": "ipRouteInfo",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The number of current ipCidrRouteTable entries that are not invalid - 1.3.6.1.2.1.4.24.3",
+        "key": "ipCidrRouteNumber",
+        "name": "prometheus-ipCidrRouteNumber",
+        "paramDefine": [],
+        "tagDefine": [],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The total number of packets that higher-level protocols requested be transmitted, and which were addressed to a multicast or broadcast address at this sub-layer, including those that were discarded or not sent - 1.3.6.1.2.1.2.2.1.18",
+        "key": "ifOutNUcastPkts",
+        "name": "prometheus-ifOutNUcastPkts",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "An alternate routing metric for this route - 1.3.6.1.2.1.4.21.1.4",
+        "key": "ipRouteMetric2",
+        "name": "prometheus-ipRouteMetric2",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipRouteDest",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The length of the output packet queue (in packets). - 1.3.6.1.2.1.2.2.1.21",
+        "key": "ifOutQLen",
+        "name": "prometheus-ifOutQLen",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The vendor-specific hardware revision string for the physical entity - 1.3.6.1.2.1.47.1.1.1.1.8",
+        "key": "entPhysicalHardwareRev",
+        "name": "prometheus-entPhysicalHardwareRev",
+        "paramDefine": [
+            {
+                "name": "entPhysicalHardwareRev",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "11",
+                "name": "entPhysicalIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "name": "entPhysicalHardwareRev",
+                "readOnly": false
+            },
+            {
+                "default": "11",
+                "name": "entPhysicalIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "This object is a user-assigned asset tracking identifier (as specified by a network manager) for the physical entity, and provides non-volatile storage of this information - 1.3.6.1.2.1.47.1.1.1.1.15",
+        "key": "entPhysicalAssetID",
+        "name": "prometheus-entPhysicalAssetID",
+        "paramDefine": [
+            {
+                "name": "entPhysicalAssetID",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "1",
+                "name": "entPhysicalIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "name": "entPhysicalAssetID",
+                "readOnly": false
+            },
+            {
+                "default": "1",
+                "name": "entPhysicalIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "An alternate routing metric for this route - 1.3.6.1.2.1.4.21.1.12",
+        "key": "ipRouteMetric5",
+        "name": "prometheus-ipRouteMetric5",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipRouteDest",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The total number of octets transmitted out of the interface, including framing characters - 1.3.6.1.2.1.2.2.1.16",
+        "key": "ifOutOctets",
+        "name": "prometheus-ifOutOctets",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "An administratively-assigned name for this managed node - 1.3.6.1.2.1.1.5",
+        "key": "sysName",
+        "name": "prometheus-sysName",
+        "paramDefine": [
+            {
+                "default": "H3C",
+                "name": "sysName",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "H3C",
+                "name": "sysName",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "For packet-oriented interfaces, the number of packets received via the interface which were discarded because of an unknown or unsupported protocol - 1.3.6.1.2.1.2.2.1.15",
+        "key": "ifInUnknownProtos",
+        "name": "prometheus-ifInUnknownProtos",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "For packet-oriented interfaces, the number of inbound packets that contained errors preventing them from being deliverable to a higher-layer protocol - 1.3.6.1.2.1.2.2.1.14",
+        "key": "ifInErrors",
+        "name": "prometheus-ifInErrors",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The type of route - 1.3.6.1.2.1.4.21.1.8",
+        "key": "ipRouteType",
+        "name": "prometheus-ipRouteType",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipRouteDest",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "A value which indicates the set of services that this entity may potentially offer - 1.3.6.1.2.1.1.7",
+        "key": "sysServices",
+        "name": "prometheus-sysServices",
+        "paramDefine": [],
+        "tagDefine": [],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The value of entPhysicalIndex for the contained physical entity. - 1.3.6.1.2.1.47.1.3.3.1.1",
+        "key": "entPhysicalChildIndex",
+        "name": "prometheus-entPhysicalChildIndex",
+        "paramDefine": [
+            {
+                "default": "11",
+                "name": "entPhysicalChildIndex",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "5",
+                "name": "entPhysicalIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "11",
+                "name": "entPhysicalChildIndex",
+                "readOnly": false
+            },
+            {
+                "default": "5",
+                "name": "entPhysicalIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The value of the least-significant bit in the IPv4 broadcast address used for sending datagrams on the (logical) interface associated with the IPv4 address of this entry - 1.3.6.1.2.1.4.20.1.4",
+        "key": "ipAdEntBcastAddr",
+        "name": "prometheus-ipAdEntBcastAddr",
+        "paramDefine": [
+            {
+                "default": "192.168.10.253",
+                "name": "ipAdEntAddr",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.253",
+                "name": "ipAdEntAddr",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The number of IPv4 datagrams that have been discarded because they needed to be fragmented at this entity but could not be, e.g., because their Don't Fragment flag was set - 1.3.6.1.2.1.4.18",
+        "key": "ipFragFails",
+        "name": "prometheus-ipFragFails",
+        "paramDefine": [],
+        "tagDefine": [],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The textual identification of the contact person for this managed node, together with information on how to contact this person - 1.3.6.1.2.1.1.4",
+        "key": "sysContact",
+        "name": "prometheus-sysContact",
+        "paramDefine": [
+            {
+                "default": "Hangzhou H3C Technologies Co.",
+                "name": "sysContact",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "Hangzhou H3C Technologies Co.",
+                "name": "sysContact",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The vendor-specific firmware revision string for the physical entity - 1.3.6.1.2.1.47.1.1.1.1.9",
+        "key": "entPhysicalFirmwareRev",
+        "name": "prometheus-entPhysicalFirmwareRev",
+        "paramDefine": [
+            {
+                "name": "entPhysicalFirmwareRev",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "11",
+                "name": "entPhysicalIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "name": "entPhysicalFirmwareRev",
+                "readOnly": false
+            },
+            {
+                "default": "11",
+                "name": "entPhysicalIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "This object is an 'alias' name for the physical entity, as specified by a network manager, and provides a non-volatile 'handle' for the physical entity - 1.3.6.1.2.1.47.1.1.1.1.14",
+        "key": "entPhysicalAlias",
+        "name": "prometheus-entPhysicalAlias",
+        "paramDefine": [
+            {
+                "name": "entPhysicalAlias",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "1",
+                "name": "entPhysicalIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "name": "entPhysicalAlias",
+                "readOnly": false
+            },
+            {
+                "default": "1",
+                "name": "entPhysicalIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The total number of input datagrams received from interfaces, including those received in error - 1.3.6.1.2.1.4.3",
+        "key": "ipInReceives",
+        "name": "prometheus-ipInReceives",
+        "paramDefine": [],
+        "tagDefine": [],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "On remote routes, the address of the next system en route; Otherwise, 0.0.0.0. - 1.3.6.1.2.1.4.24.4.1.4",
+        "key": "ipCidrRouteNextHop",
+        "name": "prometheus-ipCidrRouteNextHop",
+        "paramDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "192.168.10.0",
+                "name": "ipCidrRouteDest",
+                "readOnly": false
+            },
+            {
+                "default": "255.255.255.0",
+                "name": "ipCidrRouteMask",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.253",
+                "name": "ipCidrRouteNextHop",
+                "readOnly": false
+            },
+            {
+                "default": "0",
+                "name": "ipCidrRouteTos",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The number of inbound packets which were chosen to be discarded even though no errors had been detected to prevent their being deliverable to a higher-layer protocol - 1.3.6.1.2.1.2.2.1.13",
+        "key": "ifInDiscards",
+        "name": "prometheus-ifInDiscards",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The number of input datagrams for which this entity was not their final IPv4 destination, as a result of which an attempt was made to find a route to forward them to that final destination - 1.3.6.1.2.1.4.6",
+        "key": "ipForwDatagrams",
+        "name": "prometheus-ipForwDatagrams",
+        "paramDefine": [],
+        "tagDefine": [],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The number of IPv4 fragments received which needed to be reassembled at this entity - 1.3.6.1.2.1.4.14",
+        "key": "ipReasmReqds",
+        "name": "prometheus-ipReasmReqds",
+        "paramDefine": [],
+        "tagDefine": [],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "A unique value, greater than zero, for each interface - 1.3.6.1.2.1.2.2.1.1",
+        "key": "ifIndex",
+        "name": "prometheus-ifIndex",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The value of entPhysicalIndex for the physical entity which 'contains' this physical entity - 1.3.6.1.2.1.47.1.1.1.1.4",
+        "key": "entPhysicalContainedIn",
+        "name": "prometheus-entPhysicalContainedIn",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "entPhysicalIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "entPhysicalIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The type of interface - 1.3.6.1.2.1.2.2.1.3",
+        "key": "ifType",
+        "name": "prometheus-ifType",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The type of mapping - 1.3.6.1.2.1.4.22.1.4",
+        "key": "ipNetToMediaType",
+        "name": "prometheus-ipNetToMediaType",
+        "paramDefine": [
+            {
+                "default": "30",
+                "name": "ipNetToMediaIfIndex",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.1",
+                "name": "ipNetToMediaNetAddress",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "30",
+                "name": "ipNetToMediaIfIndex",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.1",
+                "name": "ipNetToMediaNetAddress",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The number of IPv4 datagrams discarded because no route could be found to transmit them to their destination - 1.3.6.1.2.1.4.12",
+        "key": "ipOutNoRoutes",
+        "name": "prometheus-ipOutNoRoutes",
+        "paramDefine": [],
+        "tagDefine": [],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "An indication of the relative position of this 'child' component among all its 'sibling' components - 1.3.6.1.2.1.47.1.1.1.1.6",
+        "key": "entPhysicalParentRelPos",
+        "name": "prometheus-entPhysicalParentRelPos",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "entPhysicalIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "entPhysicalIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The number of IPv4 datagram fragments that have been generated as a result of fragmentation at this entity - 1.3.6.1.2.1.4.19",
+        "key": "ipFragCreates",
+        "name": "prometheus-ipFragCreates",
+        "paramDefine": [],
+        "tagDefine": [],
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "The number of packets, delivered by this sub-layer to a higher (sub-)layer, which were not addressed to a multicast or broadcast address at this sub-layer - 1.3.6.1.2.1.2.2.1.11",
+        "key": "ifInUcastPkts",
+        "name": "prometheus-ifInUcastPkts",
+        "paramDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "1",
+                "name": "ifIndex",
+                "readOnly": false
+            }
+        ],
+        "unit": ""
+    }
+]
