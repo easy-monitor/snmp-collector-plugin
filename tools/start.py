@@ -1,14 +1,16 @@
 #!/usr/local/easyops/python/bin/python
 # -*- coding: UTF-8 -*-
 
+import copy
 import os
 import subprocess
 
 
-def run_command(command, env={}, shell=False, close_fds=True):
+def run_command(command, cwd=".", env={}, shell=False, close_fds=True):
     process = subprocess.Popen(
         command,
-        env=env,
+        cwd=cwd,
+        env=copy.deepcopy(os.environ).update(env),
         shell=shell,
         close_fds=close_fds
     )
@@ -17,8 +19,10 @@ def run_command(command, env={}, shell=False, close_fds=True):
 
 
 if __name__ == '__main__':
+    package_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
     argument_map = {
-        '--snmp-yaml-path': 'snmp_yaml_path',
+        '--config-file-path': 'config_file_path',
         '--exporter-host': 'exporter_host',
         '--exporter-port': 'exporter_port'
     }
@@ -29,5 +33,5 @@ if __name__ == '__main__':
         if env_value is not None:
             arguments.append('{} {}'.format(argument, env_value))
     
-    command = 'sh ./deploy/start_script.sh {}'.format(' '.join(arguments))
-    run_command(command, shell=True)
+    command = 'sh ./script/deploy/start_script.sh {} &'.format(' '.join(arguments))
+    run_command(command, shell=True, cwd=package_path)

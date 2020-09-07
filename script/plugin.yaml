@@ -6,6 +6,6 @@ version: 1.0.0
 
 category: 网络设备
 params:
-    - snmp_yaml_path
+    - config_file_path
     - exporter_host
     - exporter_port
