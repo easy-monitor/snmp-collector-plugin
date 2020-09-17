@@ -13,7 +13,7 @@
                 "title": "接口状态",
                 "width": 24,
                 "x": 0,
-                "y": 4
+                "y": 0 
             },
             {
                 "brickConf": "{\"brick\":\"chart-v2.time-series-chart\",\"properties\":{\"showCard\":false,\"height\":230,\"xField\":\"time\",\"yFields\":[\"ifinoctets\",\"ifoutoctets\"],\"axis\":{\"yAxis\":{\"min\":0,\"unit\":\"bps\"}},\"interactions\":[{\"type\":\"custom-brush-x\",\"cfg\":{\"enablePushQuery\":true,\"fromKey\":\"from\",\"toKey\":\"to\"}}]},\"lifeCycle\":{\"useResolves\":[{\"provider\":\"providers-of-data-exchange.olap-api-query\",\"args\":[{\"model\":\"<% \\\"easyops.\\\" + PARAMS.get(\\\"objectId\\\") %>\",\"dims\":[\"time(auto)\"],\"measures\":[{\"name\":\"ifinoctets\",\"function\":{\"expression\":\"avg\",\"args\":[\"ifinoctets\"]}},{\"name\":\"ifoutoctets\",\"function\":{\"expression\":\"avg\",\"args\":[\"ifoutoctets\"]}}],\"filters\":[{\"name\":\"instanceId\",\"operator\":\"==\",\"value\":\"${QUERY.instanceId|string}\"},{\"name\":\"time\",\"operator\":\">=\",\"value\":\"${QUERY.from=\\\"now-1h\\\"|string}\"},{\"name\":\"time\",\"operator\":\"<=\",\"value\":\"${QUERY.to=\\\"now-1s\\\"|string}\"}],\"order\":[{\"name\":\"time\",\"order\":\"desc\"}]}],\"transform\":{\"data\":\"@{list}\",\"xRange\":{\"from\":\"@{from}\",\"to\":\"@{to}\",\"step\":\"@{step}\"}},\"onReject\":{\"transform\":{\"error\":\"<% DATA.message || '接口请求错误' %>\"}}}]}}",
@@ -24,7 +24,7 @@
                 "title": "接口流量",
                 "width": 12,
                 "x": 0,
-                "y": 21
+                "y": 17
             },
             {
                 "brickConf": "{\"brick\":\"chart-v2.time-series-chart\",\"properties\":{\"showCard\":false,\"height\":230,\"xField\":\"time\",\"yFields\":[\"ifinucastpkts\",\"ifoutucastpkts\",\"ifinnucastpkts\"],\"axis\":{\"yAxis\":{\"min\":0,\"unit\":\"bps\"}},\"interactions\":[{\"type\":\"custom-brush-x\",\"cfg\":{\"enablePushQuery\":true,\"fromKey\":\"from\",\"toKey\":\"to\"}}]},\"lifeCycle\":{\"useResolves\":[{\"provider\":\"providers-of-data-exchange.olap-api-query\",\"args\":[{\"model\":\"<% \\\"easyops.\\\" + PARAMS.get(\\\"objectId\\\") %>\",\"dims\":[\"time(auto)\"],\"measures\":[{\"name\":\"ifinucastpkts\",\"function\":{\"expression\":\"avg\",\"args\":[\"ifinucastpkts\"]}},{\"name\":\"ifoutucastpkts\",\"function\":{\"expression\":\"avg\",\"args\":[\"ifoutucastpkts\"]}},{\"name\":\"ifinnucastpkts\",\"function\":{\"expression\":\"avg\",\"args\":[\"ifinnucastpkts\"]}}],\"filters\":[{\"name\":\"instanceId\",\"operator\":\"==\",\"value\":\"${QUERY.instanceId|string}\"},{\"name\":\"time\",\"operator\":\">=\",\"value\":\"${QUERY.from=\\\"now-1h\\\"|string}\"},{\"name\":\"time\",\"operator\":\"<=\",\"value\":\"${QUERY.to=\\\"now-1s\\\"|string}\"}],\"order\":[{\"name\":\"time\",\"order\":\"desc\"}]}],\"transform\":{\"data\":\"@{list}\",\"xRange\":{\"from\":\"@{from}\",\"to\":\"@{to}\",\"step\":\"@{step}\"}},\"onReject\":{\"transform\":{\"error\":\"<% DATA.message || '接口请求错误' %>\"}}}]}}",
@@ -35,7 +35,7 @@
                 "title": "接口包速率",
                 "width": 12,
                 "x": 12,
-                "y": 21
+                "y": 17
             }
         ],
         "variables": [
