@@ -104,14 +104,14 @@ $ curl http://127.0.0.1:9116/snmp?target=1.2.3.4
 ```
 snmp-collector-plugin
 ├── dashboard.json
-├── log
-│   └── snmp-collector-plugin.log
 ├── origin_metric.json
 └── script
     ├── conf
     │   └── snmp.yml
     ├── deploy
     │   └── start_script.sh
+    ├── log
+    │   └── snmp-collector-plugin.log
     ├── package.conf.yaml
     ├── plugin.yaml
     └── src
@@ -121,11 +121,11 @@ snmp-collector-plugin
 该项目的目录结构遵循标准的 EasyOps 监控插件包规范，具体内容如下：
 
 - dashboard.json: 仪表盘的定义文件
-- log: 日志文件目录
 - origin_metric.json: 采集插件关联的监控指标定义文件
 - script: 采集插件关联的程序包目录，执行采集任务时会部署到指定的目标机器上
 - script/conf: 配置文件目录
 - script/deploy/start_script.sh: 启动脚本
+- script/log: 日志文件目录
 - script/package.conf.yaml: 采集插件关联的程序包的定义文件
 - script/plugin.yaml: 采集插件包的定义文件
 - script/src: 采集插件包的 Exporter 目录
